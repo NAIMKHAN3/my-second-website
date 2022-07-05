@@ -1,17 +1,22 @@
 body {
     font-family: 'Arima', cursive;
     margin: 0;
+
 }
 
 h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange-color {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
 }
 
@@ -19,6 +24,7 @@ section {
     width: 50%;
     padding-left: 5%;
     font-weight: 700;
+
 }
 
 .half-width img {
@@ -38,4 +44,33 @@ section {
     background-image: url(images/download.png);
     background-repeat: no-repeat;
 
+
+}
+
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    background-color: rgb(248, 212, 144);
+
+}
+
+.experience-area {
+    padding-left: 20px;
+}
+
+#baby-web-developer {
+    border-left: 7px solid rgb(237, 69, 8);
+}
+
+#full-stack-Developer {
+    border-left: 7px solid blue;
+}
+
+footer p {
+    text-align: center;
 }
